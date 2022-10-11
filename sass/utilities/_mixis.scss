@@ -1,0 +1,48 @@
+
+
+@mixin cajas-proyecto {
+    width: 30%;
+    height: 95%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+@mixin contenedor-titulos{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+
+}
+@mixin titulos-proyecto{
+    color:$color4;
+    font-size: 1.8rem;
+    padding: 1px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+@mixin pie-proyecto{
+    text-align: center;
+    background-color: black;
+    color: $color4;
+    border-radius: 5px;
+}
+
+// Titulos de paginas 
+@mixin subtitulos-paginas ($Width, $height) {
+    background-color: $color3;
+    width: $Width;
+    height: $height;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+// Ajustes imagenes - proyecto
+@mixin ajuste-img{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
