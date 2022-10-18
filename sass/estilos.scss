@@ -89,14 +89,21 @@ body{
         background-image: url(../img/fondo-main.jpg);
         @include ajuste-img;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         }
-        .carousel{
-            margin-top: 50px;
-            width: 30vw;
-            height: 40vh;
+        .noticias-inicio{
+            width: 500px;
+            height: 500px;
+            margin-top: 40px;
+            background-color: $color2;
+            border-radius: 10px 10px 5px 5px;
+            h2{
+                text-align: center;
+                font-size: 25px;
+                padding: 5px;
+                color: $color4;
+            }
         }
-
 // PROYECTOS
 .contenedor-section{
     width: 90%;

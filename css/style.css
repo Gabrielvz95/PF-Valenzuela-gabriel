@@ -61,11 +61,6 @@ body {
   .main-grid .contenedor-titulos {
     display: flex;
     justify-content: center; }
-    .main-grid .contenedor-titulos h1 {
-      width: 40%;
-      background-color: yellow;
-      color: black;
-      text-align: center; }
 
 .contenedor-titulos {
   width: 100%; }
@@ -85,12 +80,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center; }
+  justify-content: space-around; }
 
-.carousel {
-  margin-top: 50px;
-  width: 30vw;
-  height: 40vh; }
+.noticias-inicio {
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
+  background-color: #303841;
+  border-radius: 10px 10px 5px 5px; }
+  .noticias-inicio h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    color: #F7F7F7; }
 
 .contenedor-section {
   width: 90%;
