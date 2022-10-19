@@ -76,7 +76,7 @@ body{
 }
 
 
-.contenedor-titulos{ 
+.contenedor-titulos{  // Subtitulos de paginas regulables
     width: 100%;
     .titulo-paginas{
         @include subtitulos-paginas (30%, 70%);
@@ -86,18 +86,18 @@ body{
 // INICIO
 .inicio{
         height: 100vh;
-        background-image: url(../img/fondo-main.jpg);
+        background-image: url(../img/fondo-main.jpg); // imagen de fondo inicio 
         @include ajuste-img;
         display: flex;
         justify-content: space-around;
         }
-        .noticias-inicio{
-            width: 500px;
-            height: 500px;
+        .noticias-inicio{ // Contenedor titutlo
+            width: 35vw;
+            height: 35vh;
             margin-top: 40px;
             background-color: $color2;
             border-radius: 10px 10px 5px 5px;
-            h2{
+            h1{ // Texto titulo
                 text-align: center;
                 font-size: 25px;
                 padding: 5px;
@@ -114,7 +114,7 @@ body{
     padding: 5px;
     justify-content: space-around;
     align-items: center;
-    section{
+    section{ // Cajas de proyectos
         @include cajas-proyecto;
         .sub-proyecto{
             @include contenedor-titulos;
@@ -163,7 +163,7 @@ body{
         }
     }
     .steel-2{
-        @extend .steel-1;
+        @extend .steel-1; 
         h2{
             text-align: center;
             color: $color4;
@@ -242,10 +242,12 @@ body{
         background-color: $color3;
         display: flex;
         justify-content: center;
-        align-items: center;
-        h2{
+        .texto-footer {
+            padding: 5px;
+            margin: 0 auto;
             text-align: center;
             font-size: 20px;
+            font-family: $fuente-bold;
         }
     }
 
@@ -260,6 +262,13 @@ body{
                 background-color: $color2;
                 justify-content: center;
             }
+        }
+        .inicio{
+            .noticias-inicio{
+                width: 40vw;
+                height: 40vh;
+            }
+            
         }
     }
 
@@ -282,6 +291,14 @@ body{
                     a{
                         margin: o auto;
                     }
+                }
+            }
+            .inicio{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .noticias-inicio{
+                    display: none;
                 }
             }
             .contenedor-section{
@@ -309,7 +326,7 @@ body{
                 flex-direction: column;
                 width: 100%;
                 justify-content: center;
-                border-radius:0px !important;
+                border-radius:0px;
                 }
                 li{
                     text-align: center;

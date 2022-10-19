@@ -72,7 +72,7 @@ body {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Saira Semi Condensed', sans-serif; }
+    font-family: "Saira Semi Condensed", sans-serif; }
 
 .inicio {
   height: 100vh;
@@ -84,12 +84,12 @@ body {
   justify-content: space-around; }
 
 .noticias-inicio {
-  width: 500px;
-  height: 500px;
+  width: 35vw;
+  height: 35vh;
   margin-top: 40px;
   background-color: #303841;
   border-radius: 10px 10px 5px 5px; }
-  .noticias-inicio h2 {
+  .noticias-inicio h1 {
     text-align: center;
     font-size: 25px;
     padding: 5px;
@@ -216,11 +216,13 @@ footer {
   height: 100%;
   background-color: yellow;
   display: flex;
-  justify-content: center;
-  align-items: center; }
-  footer h2 {
+  justify-content: center; }
+  footer .texto-footer {
+    padding: 5px;
+    margin: 0 auto;
     text-align: center;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: "Saira Semi Condensed", sans-serif; }
 
 @media screen and (max-width: 1240px) {
   header {
@@ -230,7 +232,10 @@ footer {
       width: 50%; }
     header nav {
       background-color: #303841;
-      justify-content: center; } }
+      justify-content: center; }
+  .inicio .noticias-inicio {
+    width: 40vw;
+    height: 40vh; } }
 
 @media screen and (max-width: 700px) {
   header {
@@ -246,6 +251,12 @@ footer {
     text-align: center; }
     nav li a {
       margin: o auto; }
+  .inicio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .inicio .noticias-inicio {
+      display: none; }
   .contenedor-section {
     height: 100%;
     flex-direction: column;
@@ -263,7 +274,7 @@ footer {
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    border-radius: 0px !important; }
+    border-radius: 0px; }
   nav li {
     text-align: center; }
     nav li a {
