@@ -20,7 +20,7 @@
     color:$color4;
     font-size: 1.8rem;
     padding: 1px;
-    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: $fuente-bold;
 }
 @mixin pie-proyecto{
     text-align: center;
@@ -38,6 +38,7 @@
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Saira Semi Condensed', sans-serif;
 
 }
 // Ajustes imagenes - proyecto

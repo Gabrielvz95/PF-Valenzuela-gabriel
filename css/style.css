@@ -71,7 +71,8 @@ body {
     text-align: center;
     border-radius: 10px;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: 'Saira Semi Condensed', sans-serif; }
 
 .inicio {
   height: 100vh;
@@ -92,7 +93,8 @@ body {
     text-align: center;
     font-size: 25px;
     padding: 5px;
-    color: #F7F7F7; }
+    color: #F7F7F7;
+    font-family: "Saira Semi Condensed", sans-serif; }
 
 .contenedor-section {
   width: 90%;
@@ -118,7 +120,7 @@ body {
       color: #F7F7F7;
       font-size: 1.8rem;
       padding: 1px;
-      font-family: 'Saira Semi Condensed', sans-serif; }
+      font-family: "Saira Semi Condensed", sans-serif; }
     .contenedor-section section p {
       text-align: center;
       background-color: black;
