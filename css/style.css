@@ -135,7 +135,9 @@ body {
   flex-direction: column;
   align-items: center; }
   .contenedor-steel h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: "Saira Semi Condensed", sans-serif;
+    padding: 5px; }
   .contenedor-steel .steel-1, .contenedor-steel .steel-2 {
     background-color: #303841;
     width: 80%;
